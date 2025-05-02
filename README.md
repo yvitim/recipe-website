@@ -1,1 +1,1 @@
-# Um site simples, de receitas
+# Um site simples, de receitas ❤️
