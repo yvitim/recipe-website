@@ -1,3 +1,7 @@
+:root {
+  font-family: "Alice", sans-serif;
+}
+
 body {
   background-image: url(./assets/bg-image.jpg);
   background-repeat: no-repeat;
@@ -17,6 +21,28 @@ body {
 
 #page main img {
   border-radius: 16px;
+}
+
+section h1, h2 {
+  font-weight: normal;
+  color: #291B1A;
+}
+
+section h1 {
+  font-size: 40px;
+  line-height: 140%;
+}
+
+section p, li, h2 {
+  line-height: 150%;
+}
+
+section h2 {
+  font-size: 24px;
+}
+
+section p, li{
+  color: #573A37;
 }
 
 footer p {
