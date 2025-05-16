@@ -79,9 +79,15 @@ section p, li{
   margin: 10px 0px;
 }
 
-footer p {
+footer {
   margin-bottom: 48px;
+}
 
+footer p {
   color: #F0E8C2;
   text-align: center;
+}
+
+footer p img {
+  vertical-align: middle;
 }
