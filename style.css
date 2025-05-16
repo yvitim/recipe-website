@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-family: "Alice", sans-serif;
+  line-height: 150%;
+  color: #573A37;
 }
 
 body {
@@ -23,12 +30,18 @@ body {
   border-radius: 16px;
 }
 
+#page main section {
+  padding: 0px 24px;
+  margin: 24px 0px;
+}
+
 section h1, h2 {
   font-weight: normal;
   color: #291B1A;
 }
 
 section h1 {
+  margin-bottom: 4px;
   font-size: 40px;
   line-height: 140%;
 }
@@ -43,6 +56,27 @@ section h2 {
 
 section p, li{
   color: #573A37;
+}
+
+#about p + p {
+  margin-top: 12px;
+}
+
+#ingredients ul ::marker {
+  font-size: 12px;
+}
+
+#ingredients ul {
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+#preparation h2 + p {
+  margin-top: 4px;
+}
+
+#preparation p + p {
+  margin: 10px 0px;
 }
 
 footer p {
